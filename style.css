@@ -23,6 +23,7 @@ html {
 }
 
 .main .zdjecia {
+  position: relative;
   width: 25%;
   display: -webkit-box;
   display: -ms-flexbox;
