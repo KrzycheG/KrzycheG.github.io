@@ -26,11 +26,13 @@ body{
        display: flex;
        flex-direction: column;
        #myImg{
+           border:solid 2px black;
            flex:1;
            max-height: 100%;
            max-width: 100%;
        }
        button{
+           max-width: 25%;
            flex: 2;
        }
    }
