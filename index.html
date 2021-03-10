@@ -5,13 +5,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Portfolio</title>
+
 </head>
 
 
 <body>
-    <header class="naglowek">
-        <div class="powitanie">Witaj na stronie moich projektów.</div>
+    <header class="main">
+
+        <div class="powitanie">Krzysztof Pstrowski</div>
+        <div class="zdjecia">
+            <img id="myImg" src="img/IMG_8212.JPG">
+            <br><br>
+            <button onclick="document.getElementById('myImg').src='img/chudy.png'">Chudy</button>
+            <button onclick="document.getElementById('myImg').src='img/GRUBAS.jpg'">Gruby</button>
+        </div>
     </header>
 </body>
 
