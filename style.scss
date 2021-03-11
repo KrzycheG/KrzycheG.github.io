@@ -1,69 +1,70 @@
 * {
-    font-family: CustomFont;
-  }
-  
-  html {
-    background: url(1.jpg) no-repeat center center fixed;
-    background-size: cover;
-  }
-  
-  .main {
-    padding: 50px;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    text-align: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  
-  .main .zdjecia {
-    position: relative;
-    width: 25%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  
-  .main .zdjecia #myImg {
-    border: solid 2px black;
-    -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
-    max-height: 100%;
-    max-width: 100%;
-  }
-  
-  .main .zdjecia button {
-    max-width: 25%;
-    -webkit-box-flex: 2;
-        -ms-flex: 2;
-            flex: 2;
-  }
-  
-  .powitanie {
-    -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    width: auto;
-    font-size: 51px;
-  }
-  
-  @font-face {
-    font-family: "CustomFont";
-    src: url("font/courgette-regular-webfont.woff");}
+  font-family: CustomFont;
+}
+
+html {
+  background: url(1.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.main {
+  padding: 50px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main .zdjecia {
+  position: relative;
+  width: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main .zdjecia #myImg {
+  border: solid 2px black;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.main .zdjecia button {
+  max-width: 25%;
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+}
+
+.powitanie {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: auto;
+  font-size: 51px;
+}
+
+@font-face {
+  font-family: "CustomFont";
+  src: url("font/courgette-regular-webfont.woff");
+}
